@@ -1,0 +1,109 @@
+
+.container-fluid .col-5{
+	color: seashell;
+}
+.col-7 .container-fluid p{
+	color:black;
+	border-left: 2px solid turquoise;
+	border-top: 1px solid turquoise;
+	padding-top: 3px;
+	padding-left: 4px;
+	font-weight: bold;
+}
+h6{
+	border-left: 2px solid turquoise;
+	border-right: 2px solid turquoise;
+	text-align: center;
+	color:dimgray;
+	margin-left: 100px;
+	padding-left: 2px;
+	font-family: cursive;
+
+}
+.headimg {
+	display: flex;
+	justify-content: center;
+	
+}
+.headimg img{
+	height: 230px;
+	width: 250px;
+}
+.headimg .content h1{
+	font-size: 100px;
+	font-weight: bold;
+	font-family: fantasy;
+	padding-bottom:0px;
+}
+.headimg .content p{
+	font-family: cursive;
+	font-weight: bolder;
+	color: mediumvioletred;
+}
+.list{
+	box-shadow: 10px 10px 5px gray;
+	background-color: black;
+	border-radius: 40px;
+	padding-top: 5px ;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+.list h4{
+	font-size: 25px;
+	font-family: fantasy;
+	font-weight: bold;
+}
+.list h5{
+	font-size: 13px;
+	font-family: cursive;
+}
+/*professional pursuit*/
+div .col-10 p{
+	white-space: nowrap;
+	border: 1px solid black;
+	color: darkslategray;
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+	background-color: mistyrose;
+	box-shadow: 10px 10px 5px gray;
+}
+
+/*technical-line */
+div div .col-6 .tech {
+	border-right: 3px dashed hotpink;
+	padding-right: 70px;
+}
+
+/*skill set-headings*/
+div .col-6  p{
+	font-size: 20px;
+	color: black ;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: fantasy;
+	text-shadow:10px 10px 5px peachpuff ;
+	margin-left: 20px;
+	background-color: lavender;
+	padding-right: 3px;
+	border-top: 1px solid black;
+}
+/*skill-set :the ul and li in li*/
+div .col-6 {
+	color: goldenrod;
+	font-family: cursive;
+	font-weight: bolder;
+}	
+h3{
+	color: darkred;
+	font-family: fantasy;
+	font-size: 25px;
+}
+.foot img{
+	height: 200px;
+	width: 230px;
+}
+.foot{
+	display: flex;
+	justify-content: center;
+}
